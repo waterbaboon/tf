@@ -4,7 +4,7 @@
 	"Version"
 	{
 		"label" 									"m0rehud 5.8" 
-		"command" 									"engine showconsole; echo m0rehud by Hypnotize @ www.teamfortress.tv/34115/m0re-hud all credits to m0re"
+		"command" 									"engine"	//"engine showconsole; echo m0rehud by Hypnotize @ www.teamfortress.tv/34115/m0re-hud all credits to m0re"
 		"OnlyAtMenu"								"1"
 	}
 	"Servers"
@@ -25,7 +25,7 @@
 	"Store"
 	{
 		"label"										"Store"
-		"command"									"engine open_store"
+		"command"									"engine"	//"engine open_store"
 	}
 	"Settings"
 	{
@@ -45,12 +45,12 @@
 	"Contracker"
 	{
 		"label"										"Contracker"
-		"command"									"questlog"
+		"command"									"engine"	//"questlog"
 	}
 	"Streams"
 	{
 		"label"										"Streams"
-		"command"									"watch_stream"
+		"command"									"engine"	//"watch_stream"
 	}
 	"Quit"
 	{
@@ -63,7 +63,7 @@
 	"Scoreboard"
 	{
 		"label"										"Scoreboard"
-		"command"									"engine toggle cl_hud_minmode"
+		"command"									"engine"	//"engine toggle cl_hud_minmode"
 		"OnlyInGame"								"1"
 	}
 	"Disconnect"
@@ -95,7 +95,7 @@
 	"Report"
 	{
 		"label"										""
-		"command"									"OpenReportPlayerDialog"
+		"command"									"engine"	//"OpenReportPlayerDialog"
 		"subimage"									"glyph_alert"
 		"OnlyInGame"								"1"
 	}
@@ -118,7 +118,7 @@
 	"Reload Sound"
 	{
 		"label"										"B"
-		"command"									"engine snd_restart"
+		"command"									"engine"	//"engine snd_restart"
 		"tooltip"									"Reload Sound"
 		"OnlyInGame"								"1"
 	}
@@ -132,35 +132,35 @@
 	"Toggle Netgraph"
 	{
 		"label"										"F"
-		"command"									"engine toggle net_graph 0 1"
+		"command"									"engine"	//"engine toggle net_graph 0 1"
 		"tooltip"									"Enable/Disable NetGraph"
 		"OnlyInGame"								"1"
 	}
 	"Toggle Contracts"
 	{
 		"label"										"H"
-		"command"									"engine toggle tf_contract_progress_show 0 1"
+		"command"									"engine"	//"engine toggle tf_contract_progress_show 0 1"
 		"tooltip"									"Enable/Disable Contracts"
 		"OnlyInGame"								"1"
 	}
 	"Enable Captions"
 	{
 		"label"										"E"
-		"command"									"engine closecaption 1;cc_subtitles 0;cc_lang english;cc_predisplay_time 0;cc_emit #subtitles0"
+		"command"									"engine"	//"engine closecaption 1;cc_subtitles 0;cc_lang english;cc_predisplay_time 0;cc_emit #subtitles0"
 		"tooltip"									"Enable CloseCaptions"
 		"OnlyInGame"								"1"
 	}
 	"Disable Captions"
 	{
 		"label"										"E"
-		"command"									"engine closecaption 0; cc_predisplay_time 0"
+		"command"									"engine"	//"engine closecaption 0; cc_predisplay_time 0"
 		"tooltip"									"Disable CloseCaptions"
 		"OnlyInGame"								"1"
 	}
 	"Toggle Chat"
 	{
 		"label"										"A"
-		"command"									"engine toggle hud_saytext_time 0 6"
+		"command"									"engine"	//"engine toggle hud_saytext_time 0 6"
 		"tooltip"									"Enable/Disable Chat"
 		"OnlyInGame"								"1"
 	}

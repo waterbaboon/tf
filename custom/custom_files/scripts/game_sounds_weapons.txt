@@ -7545,7 +7545,10 @@
 	"soundlevel"  	"SNDLVL_NONE"	
 	"pitch"			"PITCH_NORM"
 
-	"wave"	")ui/hitsound_space.wav"
+	"rndwave"
+	{
+		"wave"	")ui/hitsound_space1.wav"
+	}
 }
 
 "Player.HitSoundSquasher"
@@ -7665,7 +7668,10 @@
 	"soundlevel"  	"SNDLVL_NONE"	
 	"pitch"			"PITCH_NORM"
 
-	"wave"	")ui/killsound_space.wav"
+	"rndwave"
+	{
+		"wave"	")ui/killsound_space1.wav"
+	}
 }
 
 "Player.KillSoundSquasher"
