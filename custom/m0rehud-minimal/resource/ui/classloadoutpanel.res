@@ -171,7 +171,7 @@
 			"angles_x" "0"
 			"angles_y" "170"
 			"angles_z" "0"
-			"origin_x" "265"    // '0' to 'X' = Closer or Further (210)
+			"origin_x" "265"   9'0' to 'X' = Closer or Further (210)
 			"origin_y" "55"		// '0' to 'X' = Right or Left (40)
 			"origin_z" "-28"
 			"frame_origin_x"	"260"
